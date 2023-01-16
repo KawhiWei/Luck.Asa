@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Solution Items", "0.Solution Items", "{6758187B-A74B-4ADF-B8A8-63735E6799AA}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Presentation", "1.Presentation", "{38671F56-A6A0-41A3-B9DE-28DA94E51C57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Application", "2.Application", "{EC42BEB0-3C84-4A3B-AA4B-5590B6EC9A9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Domain", "3.Domain", "{D211A177-3A86-4970-A86A-98B06AA63EB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infrastructure", "4.Infrastructure", "{E4D90D59-AB45-4A6A-B1B2-86CE25B77119}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.test", "5.test", "{AE7CD9D3-0BA8-4B4B-9E14-EF5187D1D14C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luck.Asa.Api", "src\Luck.Asa.Api\Luck.Asa.Api.csproj", "{CCA68422-091B-48A0-93B1-5D1B7A8B2735}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luck.Asa.Dto", "src\Luck.Asa.Dto\Luck.Asa.Dto.csproj", "{7832E9A3-242E-437A-9454-D434C0DA8CCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luck.Asa.Application", "src\Luck.Asa.Application\Luck.Asa.Application.csproj", "{3CA47B6A-9950-4970-AC3D-4A6C45F8D22F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luck.Asa.Persistence", "src\Luck.Asa.Persistence\Luck.Asa.Persistence.csproj", "{2A0322FC-0178-4338-BF19-F7B1FAE62138}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luck.Asa.Infrastructure", "src\Luck.Asa.Infrastructure\Luck.Asa.Infrastructure.csproj", "{F17E3C3F-239F-4985-B173-A7355991F370}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luck.Asa.Domain", "src\Luck.Asa.Domain\Luck.Asa.Domain.csproj", "{52BC073F-49F6-4E71-ACB0-895C7FB804D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luck.Asa.Adapter", "src\Luck.Asa.Adapter\Luck.Asa.Adapter.csproj", "{E3590085-334B-409C-9D80-654C18A7A1F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CCA68422-091B-48A0-93B1-5D1B7A8B2735} = {38671F56-A6A0-41A3-B9DE-28DA94E51C57}
+		{7832E9A3-242E-437A-9454-D434C0DA8CCD} = {EC42BEB0-3C84-4A3B-AA4B-5590B6EC9A9E}
+		{3CA47B6A-9950-4970-AC3D-4A6C45F8D22F} = {EC42BEB0-3C84-4A3B-AA4B-5590B6EC9A9E}
+		{2A0322FC-0178-4338-BF19-F7B1FAE62138} = {E4D90D59-AB45-4A6A-B1B2-86CE25B77119}
+		{F17E3C3F-239F-4985-B173-A7355991F370} = {E4D90D59-AB45-4A6A-B1B2-86CE25B77119}
+		{52BC073F-49F6-4E71-ACB0-895C7FB804D0} = {D211A177-3A86-4970-A86A-98B06AA63EB5}
+		{E3590085-334B-409C-9D80-654C18A7A1F7} = {E4D90D59-AB45-4A6A-B1B2-86CE25B77119}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCA68422-091B-48A0-93B1-5D1B7A8B2735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCA68422-091B-48A0-93B1-5D1B7A8B2735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCA68422-091B-48A0-93B1-5D1B7A8B2735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCA68422-091B-48A0-93B1-5D1B7A8B2735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7832E9A3-242E-437A-9454-D434C0DA8CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7832E9A3-242E-437A-9454-D434C0DA8CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7832E9A3-242E-437A-9454-D434C0DA8CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7832E9A3-242E-437A-9454-D434C0DA8CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CA47B6A-9950-4970-AC3D-4A6C45F8D22F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA47B6A-9950-4970-AC3D-4A6C45F8D22F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA47B6A-9950-4970-AC3D-4A6C45F8D22F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA47B6A-9950-4970-AC3D-4A6C45F8D22F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A0322FC-0178-4338-BF19-F7B1FAE62138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A0322FC-0178-4338-BF19-F7B1FAE62138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A0322FC-0178-4338-BF19-F7B1FAE62138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A0322FC-0178-4338-BF19-F7B1FAE62138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F17E3C3F-239F-4985-B173-A7355991F370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17E3C3F-239F-4985-B173-A7355991F370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17E3C3F-239F-4985-B173-A7355991F370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17E3C3F-239F-4985-B173-A7355991F370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52BC073F-49F6-4E71-ACB0-895C7FB804D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52BC073F-49F6-4E71-ACB0-895C7FB804D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52BC073F-49F6-4E71-ACB0-895C7FB804D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52BC073F-49F6-4E71-ACB0-895C7FB804D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3590085-334B-409C-9D80-654C18A7A1F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3590085-334B-409C-9D80-654C18A7A1F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3590085-334B-409C-9D80-654C18A7A1F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3590085-334B-409C-9D80-654C18A7A1F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
