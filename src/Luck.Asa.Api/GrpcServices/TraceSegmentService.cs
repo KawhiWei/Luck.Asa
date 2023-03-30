@@ -1,6 +1,6 @@
 using Grpc.Core;
 using Luck.Asa.Domain.Shared.Enums;
-using Luck.Asa.Dto.TraceSegments;
+using Luck.Asa.Dto.Segments;
 using SkyWalking.NetworkProtocol.V3;
 
 namespace Luck.Asa.Api.GrpcServices;
@@ -43,40 +43,30 @@ public class TraceSegmentService : TraceSegmentReportService.TraceSegmentReportS
         };
     }
 
-
-    private SpanTypeEnum GetSpanType(SpanType spanType)
+    private SpanTypeEnum GetSpanType(SpanType spanType) => spanType switch
     {
-        return spanType switch
-        {
-            SpanType.Entry => SpanTypeEnum.Entry,
-            SpanType.Exit => SpanTypeEnum.Exit,
-            SpanType.Local => SpanTypeEnum.Local,
-            _ => SpanTypeEnum.Local
-        };
-    }
+        SpanType.Entry => SpanTypeEnum.Entry,
+        SpanType.Exit => SpanTypeEnum.Exit,
+        SpanType.Local => SpanTypeEnum.Local,
+        _ => SpanTypeEnum.Local
+    };
 
-    private SpanLayerEnum GetSpanSpanLayer(SpanLayer spanLayer)
+    private SpanLayerEnum GetSpanSpanLayer(SpanLayer spanLayer) => spanLayer switch
     {
-        return spanLayer switch
-        {
-            SpanLayer.Unknown => SpanLayerEnum.Unknown,
-            SpanLayer.Database => SpanLayerEnum.Database,
-            SpanLayer.Rpcframework => SpanLayerEnum.RpcFramework,
-            SpanLayer.Http => SpanLayerEnum.Http,
-            SpanLayer.Mq => SpanLayerEnum.Mq,
-            SpanLayer.Cache => SpanLayerEnum.Cache,
-            SpanLayer.Faas => SpanLayerEnum.FaaS,
-            _ => SpanLayerEnum.Unknown
-        };
-    }
+        SpanLayer.Unknown => SpanLayerEnum.Unknown,
+        SpanLayer.Database => SpanLayerEnum.Database,
+        SpanLayer.Rpcframework => SpanLayerEnum.RpcFramework,
+        SpanLayer.Http => SpanLayerEnum.Http,
+        SpanLayer.Mq => SpanLayerEnum.Mq,
+        SpanLayer.Cache => SpanLayerEnum.Cache,
+        SpanLayer.Faas => SpanLayerEnum.FaaS,
+        _ => SpanLayerEnum.Unknown
+    };
 
-    private RefTypeEnum GetRefType(RefType refType)
+    private RefTypeEnum GetRefType(RefType refType) => refType switch
     {
-        return refType switch
-        {
-            RefType.CrossProcess => RefTypeEnum.CrossProcess,
-            RefType.CrossThread => RefTypeEnum.CrossThread,
-            _ => RefTypeEnum.CrossProcess
-        };
-    }
+        RefType.CrossProcess => RefTypeEnum.CrossProcess,
+        RefType.CrossThread => RefTypeEnum.CrossThread,
+        _ => RefTypeEnum.CrossProcess
+    };
 }

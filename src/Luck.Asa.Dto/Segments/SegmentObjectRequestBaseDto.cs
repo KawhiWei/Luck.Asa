@@ -1,4 +1,4 @@
-namespace Luck.Asa.Dto.TraceSegments;
+namespace Luck.Asa.Dto.Segments;
 
 public class SegmentObjectRequestBaseDto
 {
