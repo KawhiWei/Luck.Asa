@@ -6,12 +6,4 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="Traces" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\Luck.Asa.Domain.Shared\Luck.Asa.Domain.Shared.csproj" />
-    </ItemGroup>
-
 </Project>

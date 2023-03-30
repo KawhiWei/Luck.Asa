@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luck.Asa.Domain", "src\Luck
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luck.Asa.Adapter", "src\Luck.Asa.Adapter\Luck.Asa.Adapter.csproj", "{E3590085-334B-409C-9D80-654C18A7A1F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luck.Asa.Domain.Shared", "src\Luck.Asa.Domain.Shared\Luck.Asa.Domain.Shared.csproj", "{5A73E745-EBD5-49C6-ACF2-5614C20B3CB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +44,7 @@ Global
 		{F17E3C3F-239F-4985-B173-A7355991F370} = {E4D90D59-AB45-4A6A-B1B2-86CE25B77119}
 		{52BC073F-49F6-4E71-ACB0-895C7FB804D0} = {D211A177-3A86-4970-A86A-98B06AA63EB5}
 		{E3590085-334B-409C-9D80-654C18A7A1F7} = {E4D90D59-AB45-4A6A-B1B2-86CE25B77119}
+		{5A73E745-EBD5-49C6-ACF2-5614C20B3CB8} = {D211A177-3A86-4970-A86A-98B06AA63EB5}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{CCA68422-091B-48A0-93B1-5D1B7A8B2735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -72,5 +75,9 @@ Global
 		{E3590085-334B-409C-9D80-654C18A7A1F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3590085-334B-409C-9D80-654C18A7A1F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3590085-334B-409C-9D80-654C18A7A1F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A73E745-EBD5-49C6-ACF2-5614C20B3CB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A73E745-EBD5-49C6-ACF2-5614C20B3CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A73E745-EBD5-49C6-ACF2-5614C20B3CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A73E745-EBD5-49C6-ACF2-5614C20B3CB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

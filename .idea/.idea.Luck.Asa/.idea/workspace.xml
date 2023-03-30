@@ -5,29 +5,61 @@
     <projectFile profileName="Luck.Asa.Api">src/Luck.Asa.Api/Luck.Asa.Api.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c6a856f-683c-4359-b8c2-bf88de8a741e" name="Changes" comment="" />
+    <list default="true" id="4c6a856f-683c-4359-b8c2-bf88de8a741e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Application/protocol-v3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Domain.Shared/Enums/RefTypeEnum.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Domain.Shared/Enums/SpanLayerEnum.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Domain.Shared/Enums/SpanTypeEnum.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Dto/TraceSegments/SegmentObjectRequestBaseDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Dto/TraceSegments/SegmentObjectRequestInputDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Dto/TraceSegments/SegmentRequestBaseDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Dto/TraceSegments/SegmentRequestInputDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Dto/TraceSegments/SpanBaseDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Dto/TraceSegments/SpanInputDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Luck.Asa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Luck.Asa/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Luck.Asa.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Luck.Asa.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Api/Luck.Asa.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Api/Luck.Asa.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Application/Luck.Asa.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Application/Luck.Asa.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Domain/Luck.Asa.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Domain/Luck.Asa.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Dto/Luck.Asa.Dto.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Dto/Luck.Asa.Dto.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d4f98ebdd878db4fbd98872756eb7be6ad9e468fe5cd6b16385d8c4993109a/List.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KOcgtQHXGMxxUJ8FRqaPU8hGPA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;SolutionBuilderGeneralOptionsPage&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/wangzewei/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/wangzewei/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache&quot;,
+      &quot;/Users/wangzewei/.local/share/Symbols/src&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Luck.Asa.Api">
     <configuration name="Luck.Asa.Api" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/Luck.Asa.Api/Luck.Asa.Api.csproj" />
@@ -69,6 +101,12 @@
       <option name="presentableId" value="Default" />
       <updated>1673849184583</updated>
       <workItem from="1673849191986" duration="1290000" />
+      <workItem from="1675324548629" duration="624000" />
+      <workItem from="1675327817451" duration="2620000" />
+      <workItem from="1675439604962" duration="1377000" />
+      <workItem from="1675681490990" duration="683000" />
+      <workItem from="1680172462754" duration="148000" />
+      <workItem from="1680172616665" duration="3781000" />
     </task>
     <servers />
   </component>
