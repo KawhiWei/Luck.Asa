@@ -4,34 +4,46 @@
     <projectFile profileName="IIS Express">src/Luck.Asa.Api/Luck.Asa.Api.csproj</projectFile>
     <projectFile profileName="Luck.Asa.Api">src/Luck.Asa.Api/Luck.Asa.Api.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4c6a856f-683c-4359-b8c2-bf88de8a741e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Application/protocol-v3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Domain.Shared/Enums/RefTypeEnum.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Domain.Shared/Enums/SpanLayerEnum.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Domain.Shared/Enums/SpanTypeEnum.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Dto/TraceSegments/SegmentObjectRequestBaseDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Dto/TraceSegments/SegmentObjectRequestInputDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Dto/TraceSegments/SegmentRequestBaseDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Dto/TraceSegments/SegmentRequestInputDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Dto/TraceSegments/SpanBaseDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Dto/TraceSegments/SpanInputDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Api/GrpcServices/RegisterAppService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Domain/GlobalUsing.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Domain/Repositories/ITraceRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Domain/Spans/Span.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Domain/Spans/SpanReference.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Domain/Traces/Trace.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Dto/Segments/SegmentInputDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Dto/Segments/TraceBaseDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Luck.Asa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Luck.Asa/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Luck.Asa.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Luck.Asa.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Api/Luck.Asa.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Api/Luck.Asa.Api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Application/Luck.Asa.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Application/Luck.Asa.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Api/GrpcServices/TraceSegmentService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Api/GrpcServices/TraceSegmentService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Api/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Domain/Luck.Asa.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Domain/Luck.Asa.Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Dto/Luck.Asa.Dto.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Dto/Luck.Asa.Dto.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Domain/Segments/Segment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Dto/Segments/SegmentObjectRequestBaseDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Dto/Segments/SegmentBaseDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Dto/Segments/SegmentObjectRequestInputDto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Dto/Segments/SegmentRequestBaseDto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Dto/Segments/SegmentRequestInputDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Dto/Segments/TraceInputDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Dto/Segments/SpanBaseDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Dto/Segments/SpanBaseDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Infrastructure/Luck.Asa.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Infrastructure/Luck.Asa.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Persistence/Class1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Persistence/ClickHouseModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Persistence/Luck.Asa.Persistence.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Persistence/Luck.Asa.Persistence.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d4f98ebdd878db4fbd98872756eb7be6ad9e468fe5cd6b16385d8c4993109a/List.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Luck.Framework/src/framework/Luck.DDD.Domain/Domian/AggregateRoots/FullAggregateRoot.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Luck.Framework/src/framework/Luck.DDD.Domain/SqlRepositories/ISqlAggregateRootRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Luck.Framework/src/framework/Luck.DDD.Domain/SqlRepositories/SqlAggregateRootRepositoryBase.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,13 +61,19 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;SolutionBuilderGeneralOptionsPage&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/wangzewei/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/wangzewei/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache&quot;,
+      &quot;/Users/wangzewei/Library/Application Support/JetBrains/Rider2023.1/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/wangzewei/Library/Application Support/JetBrains/Rider2023.1/resharper-host/SourcesCache&quot;,
       &quot;/Users/wangzewei/.local/share/Symbols/src&quot;
     ]
   }
@@ -107,6 +125,13 @@
       <workItem from="1675681490990" duration="683000" />
       <workItem from="1680172462754" duration="148000" />
       <workItem from="1680172616665" duration="3781000" />
+      <workItem from="1680224168736" duration="2034000" />
+      <workItem from="1680240657136" duration="2544000" />
+      <workItem from="1680574932606" duration="885000" />
+      <workItem from="1680578831517" duration="1947000" />
+      <workItem from="1681442815950" duration="4099000" />
+      <workItem from="1681457704311" duration="6231000" />
+      <workItem from="1681711129969" duration="15009000" />
     </task>
     <servers />
   </component>
@@ -128,5 +153,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/src/Luck.Asa.Api/GrpcServices/RegisterAppService.cs</url>
+          <line>8</line>
+          <properties documentPath="$PROJECT_DIR$/src/Luck.Asa.Api/GrpcServices/RegisterAppService.cs" initialLine="8" containingFunctionPresentation="Method 'reportInstanceProperties'">
+            <startOffsets>
+              <option value="294" />
+            </startOffsets>
+            <endOffsets>
+              <option value="295" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

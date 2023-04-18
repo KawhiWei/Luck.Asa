@@ -7,21 +7,18 @@ namespace Luck.Asa.Api.GrpcServices;
 
 public class TraceSegmentService : TraceSegmentReportService.TraceSegmentReportServiceBase
 {
-    public override async Task<Commands> collect(IAsyncStreamReader<SegmentObject> requestStream, ServerCallContext context)
+    public override async Task<Commands> collect(IAsyncStreamReader<SegmentObject> requestStream,
+        ServerCallContext context)
     {
         await Task.CompletedTask;
         while (await requestStream.MoveNext())
         {
-            var segmentRequestInput = new SegmentRequestInputDto
+            var segmentRequestInput = new TraceInputDto
             {
                 TraceId = requestStream.Current.TraceId,
-                Segment = new SegmentObjectRequestInputDto()
-                {
-                    SegmentId = requestStream.Current.TraceSegmentId,
-                    AppId = requestStream.Current.Service,
-                    AppInstanceId = requestStream.Current.ServiceInstance,
-                    Spans = new List<SpanInputDto>(requestStream.Current.Spans.Select(GetSpans))
-                },
+                AppId = requestStream.Current.Service,
+                AppInstanceId = requestStream.Current.ServiceInstance,
+                Spans = new List<SpanInputDto>(requestStream.Current.Spans.Select(GetSpans))
             };
         }
 

@@ -5,5 +5,8 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
-
+    <ItemGroup>
+        <PackageReference Include="Luck.Dapper" Version="1.0.5" />
+        <PackageReference Include="Luck.Dapper.ClickHouse" Version="1.0.5" />
+    </ItemGroup>
 </Project>

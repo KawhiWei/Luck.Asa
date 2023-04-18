@@ -8,13 +8,14 @@ public class SpanBaseDto
 
     public SpanTypeEnum SpanType { get; set; } = default!;
 
-    public SpanLayerEnum SpanLayer { get; set; } = default!;
+    public SpanLayerEnum SpanLayer { get; set; }
 
     public int ParentSpanId { get; set; } = default!;
 
     public long StartTime { get; set; } = default!;
 
     public long EndTime { get; set; } = default!;
+    
     /// <summary>
     /// 
     /// </summary>

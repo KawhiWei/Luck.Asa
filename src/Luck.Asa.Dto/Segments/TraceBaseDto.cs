@@ -1,21 +1,23 @@
 namespace Luck.Asa.Dto.Segments;
 
-public class SegmentObjectRequestBaseDto
+public class TraceBaseDto
 {
-    /// <summary>
-    /// 请求段Id
-    /// </summary>
-    public string SegmentId { get; set; } = default!;
+    public string TraceId { get; set; } = default!;
 
     /// <summary>
-    /// Id
+    /// 应用实例Id
     /// </summary>
     public string AppId { get; set; } = default!;
 
     /// <summary>
-    /// 应用示例Id
+    /// 应用实例Id
     /// </summary>
     public string AppInstanceId { get; set; } = default!;
+
+    /// <summary>
+    /// Segment 中的详细数据，如请求参数、响应结果等。
+    /// </summary>
+    public string Data { get; set; } = default!;
 
     /// <summary>
     /// 跨度层
