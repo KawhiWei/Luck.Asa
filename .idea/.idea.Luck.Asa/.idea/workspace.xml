@@ -8,30 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c6a856f-683c-4359-b8c2-bf88de8a741e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Api/GrpcServices/RegisterAppService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Domain/GlobalUsing.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Domain/Repositories/ITraceRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Domain/Spans/Span.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Domain/Spans/SpanReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Domain/Traces/Trace.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Dto/Segments/SegmentInputDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Luck.Asa.Dto/Segments/TraceBaseDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Luck.Asa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Luck.Asa/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Api/GrpcServices/TraceSegmentService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Api/GrpcServices/TraceSegmentService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Api/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Domain/Luck.Asa.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Domain/Luck.Asa.Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Domain/Segments/Segment.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Dto/Segments/SegmentObjectRequestBaseDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Dto/Segments/SegmentBaseDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Dto/Segments/SegmentObjectRequestInputDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Dto/Segments/SegmentRequestBaseDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Dto/Segments/SegmentRequestInputDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Dto/Segments/TraceInputDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Dto/Segments/SpanBaseDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Dto/Segments/SpanBaseDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Infrastructure/Luck.Asa.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Infrastructure/Luck.Asa.Infrastructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Persistence/Class1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Persistence/ClickHouseModule.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Persistence/Luck.Asa.Persistence.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Persistence/Luck.Asa.Persistence.csproj" afterDir="false" />
-    </list>
+    <list default="true" id="4c6a856f-683c-4359-b8c2-bf88de8a741e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +21,7 @@
     <setting file="file://$PROJECT_DIR$/../Luck.Framework/src/framework/Luck.DDD.Domain/Domian/AggregateRoots/FullAggregateRoot.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Luck.Framework/src/framework/Luck.DDD.Domain/SqlRepositories/ISqlAggregateRootRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Luck.Framework/src/framework/Luck.DDD.Domain/SqlRepositories/SqlAggregateRootRepositoryBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Luck.Framework/src/framework/Luck.Dapper.ClickHouse/ClickHouseBaseModule.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -131,7 +109,7 @@
       <workItem from="1680578831517" duration="1947000" />
       <workItem from="1681442815950" duration="4099000" />
       <workItem from="1681457704311" duration="6231000" />
-      <workItem from="1681711129969" duration="15009000" />
+      <workItem from="1681711129969" duration="17442000" />
     </task>
     <servers />
   </component>
