@@ -91,28 +91,6 @@ namespace SkyWalking.NetworkProtocol.V3 {
   ///                 MaxResponseSize: Integer
   ///         ------------------------
   ///     FixedTriggerDuration: Long
-  ///
-  /// Name: ContinuousProfilingPolicyQuery
-  /// Args:
-  ///     ServiceWithPolicyJSON: List JSON serialization of ServiceWithPolicy.
-  ///         --- ServiceWithPolicy ---
-  ///         ServiceName: String
-  ///         UUID: String
-  ///         Profiling: Multiple profiling configuration. Map
-  ///             Key: Profiling type. Enum, value = ON_CPU, OFF_CPU, NETWORK
-  ///             Value: Profiling policies. Map
-  ///                 Key: Monitoring type. Enum, value = PROCESS_CPU, PROCESS_THREAD_COUNT, SYSTEM_LOAD, HTTP_ERROR_RATE, HTTP_AVG_RESPONSE_TIME
-  ///                 Value: Policy configuration. Object.
-  ///                     Threshold: String
-  ///                     Period(s): Integer
-  ///                     Count: Integer
-  ///                     URIList: List&lt;String>
-  ///                     URIRegex: String
-  ///         ---------------------------
-  ///
-  /// Name: ContinuousProfilingReportTask
-  /// Args:
-  ///     TaskId: String
   /// </summary>
   public sealed partial class Command : pb::IMessage<Command>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
