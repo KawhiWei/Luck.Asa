@@ -10,10 +10,11 @@ public class ClickHouseModule : ClickHouseBaseModule
         service.AddClickHouseDbConnectionString(x =>
         {
             x.IsCluster = false;
-            x.ConnectionOptionList=new List<ConnectionStringOptions>() { 
+            x.ConnectionOptionList = new List<ConnectionStringOptions>()
+            {
                 new ConnectionStringOptions
                 {
-                                    Host = "192.168.31.20",
+                    Host = "192.168.31.20",
                     Port = 9000,
                     User = "kawhi",
                     Password = "wzw0126..",

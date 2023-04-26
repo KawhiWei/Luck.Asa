@@ -8,7 +8,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c6a856f-683c-4359-b8c2-bf88de8a741e" name="Changes" comment="" />
+    <list default="true" id="4c6a856f-683c-4359-b8c2-bf88de8a741e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Application/generated-v3/common/Command.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Application/generated-v3/common/Command.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Application/protocol-v3" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Application/protocol-v3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Luck.Asa.Persistence/ClickHouseModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luck.Asa.Persistence/ClickHouseModule.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,6 +115,7 @@
       <workItem from="1681457704311" duration="6231000" />
       <workItem from="1681711129969" duration="17442000" />
       <workItem from="1682090754378" duration="497000" />
+      <workItem from="1682470780221" duration="137000" />
     </task>
     <servers />
   </component>
